@@ -335,7 +335,7 @@
     </dependencies>
   </dependencyManagement>
   <description>
-    The Telegram bot calculates of the cost of the trip based on its distance, fuel consumption and its cost.
+    The Telegram bot calculates of the cost of the trip based on its distance, fuel price and consumption.
   </description>
   <groupId>io.github.vitalijr2.telegram</groupId>
   <modelVersion>4.0.0</modelVersion>

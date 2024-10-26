@@ -1,6 +1,6 @@
 # Trip Cost Calculator
 
-The Telegram bot calculates of the cost of the trip based on its distance, fuel consumption and its cost.
+The Telegram bot calculates of the cost of the trip based on its distance, fuel price and consumption.
 
 [![Java Version][java-version]][jdk-download]
 [![License][apache-licence]][apache-licence-link]  
