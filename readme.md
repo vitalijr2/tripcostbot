@@ -42,9 +42,9 @@ limitations under the License.
 
 [apache-licence-link]: https://www.apache.org/licenses/LICENSE-2.0.html
 
-[github-master-check-runs]: https://img.shields.io/github/check-runs/vitalijr2/tripcostbot/master
+[github-master-check-runs]: https://img.shields.io/github/check-runs/vitalijr2/tripcostbot/main
 
-[github-master-check-runs-link]: https://github.com/vitalijr2/tripcostbot/actions?query=branch%3Amaster
+[github-master-check-runs-link]: https://github.com/vitalijr2/tripcostbot/actions?query=branch%main
 
 [github-commit-activity]: https://img.shields.io/github/commit-activity/y/vitalijr2/tripcostbot
 
