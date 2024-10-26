@@ -7,7 +7,7 @@ class WebhookTools {
   private WebhookTools() {
   }
 
-  static TelegramWebhookBot getTelegramWebhookBot(Class<? extends TelegramWebhookBot> clazz) {
+  static WebhookBot getTelegramWebhookBot(Class<? extends WebhookBot> clazz) {
     return ServiceLoader.load(clazz).findFirst()
         .orElseThrow(() -> new IllegalStateException("Unable to find a TelegramWebhookBot implementation"));
   }

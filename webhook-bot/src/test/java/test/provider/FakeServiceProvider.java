@@ -1,8 +1,8 @@
 package test.provider;
 
-import io.github.vitalijr2.telegram.webhookbot.TelegramWebhookBot;
+import io.github.vitalijr2.telegram.webhookbot.WebhookBot;
 
-public interface FakeServiceProvider extends TelegramWebhookBot {
+public interface FakeServiceProvider extends WebhookBot {
 
   String hello();
 

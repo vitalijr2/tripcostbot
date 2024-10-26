@@ -14,7 +14,7 @@ import static org.mockito.Mockito.when;
 import com.google.cloud.functions.HttpRequest;
 import com.google.cloud.functions.HttpResponse;
 import io.github.vitalijr2.mock.jdk.platform.logging.MockLoggerExtension;
-import io.github.vitalijr2.telegram.webhookbot.TelegramWebhookBot;
+import io.github.vitalijr2.telegram.webhookbot.WebhookBot;
 import java.io.BufferedReader;
 import java.io.CharArrayReader;
 import java.io.IOException;
@@ -46,7 +46,7 @@ class TelegramWebhookFunctionFastTest {
   @Mock
   private HttpResponse httpResponse;
   @Mock
-  private TelegramWebhookBot webhookBot;
+  private WebhookBot webhookBot;
 
   @InjectMocks
   @Spy

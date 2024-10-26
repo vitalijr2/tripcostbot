@@ -14,7 +14,7 @@ class TelegramWebhookBotTest {
   @Test
   void getInstance() {
     // when and then
-    assertNotNull(assertDoesNotThrow(TelegramWebhookBot::getInstance));
+    assertNotNull(assertDoesNotThrow(WebhookBot::getInstance));
   }
 
 }

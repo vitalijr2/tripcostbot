@@ -7,16 +7,16 @@ import org.jetbrains.annotations.NotNull;
 /**
  * Telegram Webhook Bot
  */
-public interface TelegramWebhookBot {
+public interface WebhookBot {
 
   /**
-   * Find and load a service provider of {@link TelegramWebhookBot}
+   * Find and load a service provider of {@link WebhookBot}
    *
    * @return the Telegram bot instance.
    */
   @NotNull
-  static TelegramWebhookBot getInstance() {
-    return WebhookTools.getTelegramWebhookBot(TelegramWebhookBot.class);
+  static WebhookBot getInstance() {
+    return WebhookTools.getTelegramWebhookBot(WebhookBot.class);
   }
 
   /**

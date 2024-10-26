@@ -3,7 +3,7 @@ package io.github.vitalijr2.telegram.googlecloudfunction;
 import com.google.cloud.functions.HttpFunction;
 import com.google.cloud.functions.HttpRequest;
 import com.google.cloud.functions.HttpResponse;
-import io.github.vitalijr2.telegram.webhookbot.TelegramWebhookBot;
+import io.github.vitalijr2.telegram.webhookbot.WebhookBot;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.lang.System.Logger.Level;
@@ -19,14 +19,14 @@ public class TelegramWebhookFunction implements HttpFunction {
   private static final String HTTP_POST_METHOD = "POST";
 
   private final System.Logger logger = System.getLogger(getClass().getName());
-  private final TelegramWebhookBot webhookBot;
+  private final WebhookBot webhookBot;
 
   public TelegramWebhookFunction() {
-    this(TelegramWebhookBot.getInstance());
+    this(WebhookBot.getInstance());
   }
 
   @VisibleForTesting
-  TelegramWebhookFunction(TelegramWebhookBot webhookBot) {
+  TelegramWebhookFunction(WebhookBot webhookBot) {
     this.webhookBot = webhookBot;
   }
 
